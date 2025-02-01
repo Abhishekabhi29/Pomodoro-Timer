@@ -70,5 +70,4 @@ breakDurationInput.addEventListener('change', () => {
   }
 });
 
-// Initialize timer display
 updateTimerDisplay();
