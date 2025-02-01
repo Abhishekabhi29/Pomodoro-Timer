@@ -1,5 +1,5 @@
 let timer;
-let timeLeft = 25 * 60; // Default work duration in seconds
+let timeLeft = 25 * 60; 
 let isRunning = false;
 let isWorkTime = true;
 
@@ -52,7 +52,6 @@ function switchMode() {
   startTimer();
 }
 
-// Event listeners
 startButton.addEventListener('click', startTimer);
 pauseButton.addEventListener('click', pauseTimer);
 resetButton.addEventListener('click', resetTimer);
